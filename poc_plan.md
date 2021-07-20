@@ -19,8 +19,13 @@ Below is our rough plan to POC with tasks and roles:
 - [ ] Decide on the desired depth of high-level ontology (@mariana-scorp)
 - [ ] Describe methodology for the creation of high-level ontology in a separate document (@mariana-scorp)
 - [ ] Compile the high-level ontology for Ukrainian language (@mariana-scorp)
-- [ ] Create a version annotated for the part of speech for the big enough corpus
-- [ ] Calculate frequencies of unigrams and bigrams for the lemmas, grouped and filtered by noun, adj, verb
-- [ ] Annotate existing synsets from English and Polish corpus with some metrics (position at hypernym/hyponym tree, number of hyponyms)
-- [ ] Translate existing synsets using google translate
-- [ ] 
+- [ ] Create a version annotated for the part of speech for the big enough corpus (@dchaplinsky/@arysin)
+- [ ] Calculate frequencies of unigrams and bigrams for the lemmas, grouped and filtered by noun, adj, verb (@dchaplinsky)
+- [ ] Annotate existing synsets from English and Polish corpus with some metrics (position at hypernym/hyponym tree, number of hyponyms) (@dchaplinsky)
+- [ ] Translate existing synsets using google translate (@dchaplinsky)
+- [ ] Try to improve quality of the translation trying differnt LUs from synsets with combination of glosses (@dchaplinsky)
+- [ ] Match english part of plWordnet with original PWN and add pwn_ids (@dchaplinsky)
+- [ ] Translate existing synsets for English using wikidata and pwn_ids and/or ILI (@dchaplinsky)
+- [ ] Translate existing synsets for Polish using links to Polish wikipedia and wikidata (@dchaplinsky)
+- [ ] Combine translated LUs with the frequencies of unigrams/ngrams of given POS and synset weight metrics above (@dchaplinsky)
+- [ ] Generate and evaluate some hypernym/hyponym relations for translated and ranked LUs
