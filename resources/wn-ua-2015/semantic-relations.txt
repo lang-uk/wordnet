@@ -1,0 +1,44 @@
+Той, хто:E
+	_related()
+Дія за знач.:E
+	_action()
+Дія і стан за знач.:E
+	_action-and-condition()
+Те саме, що:E
+	_synonym()
+Частина:E
+	_hyponym()
+	_meronym()
+Місцевість:E
+	_hyponym()
+Сукупність:E
+	_hyponym()
+	_holonym()
+Сторона:E
+	_hyponym()
+	_meronym()
+Напрям:E
+	_hypernym()
+	_holonym()
+Діяльність:E
+	_hypernym()
+Явище:E
+	_hypernym()
+Факт:E
+	_hypernym()
+Категорія:E
+	_hypernym()
+Думка:E
+	_hypernym()
+Відстань:E
+	_hypernym()
+Простір:E
+	_hypernym()
+Те, що:E
+	???
+Пор.:S
+	_sister()
+Місце:E
+	_inherited-hypernym()
+Дія:E
+	_inherited-hypernym()
